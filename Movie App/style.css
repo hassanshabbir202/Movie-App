@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inputCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  height: 50vh;
+  width: 100%;
+  margin-top: -50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5vh;
+}
+input{
+  height: 28px;
+  width: 350px;
+  margin-top: 2vh;
+  text-align: center;
+}
+.btnCont{
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+.btnCont button{
+  height: 28px;
+  width: 280px;
+  outline: none;
+  border: .2px solid black;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.headers{
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+}
+#movieHeader{
+  margin-left: 6vw;
+}
+#yearHeader{
+  margin-left: 6vw;
+}
+.displ{
+  display: flex;
+  justify-content: center;
+}
+.displayContainerDynamically{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  width: 30%;
+}
